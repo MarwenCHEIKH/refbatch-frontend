@@ -10,7 +10,7 @@ export const TOKEN_NAME: string = 'jwt_token';
   providedIn: 'root',
 })
 export class AuthService {
-  private apiUrl = 'http://localhost:3000/';
+  private apiUrl = '51.20.81.67:3000/';
   private isAuthenticated = false;
 
   constructor(private http: HttpClient) {}
